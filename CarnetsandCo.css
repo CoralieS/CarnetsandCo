@@ -1,0 +1,139 @@
+/* Eléments principaux de la page */
+
+@font-face{
+	font-family: 'Bad Script', cursive;
+}
+@font-face{
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+body{
+	background-color: rgba(211, 168, 255, 0.4);
+	
+}
+#bloc_page{
+	width: 900px;
+	margin: auto;
+}
+h2{
+	font-family: 'Bad Script', cursive;
+	font-size: 20px;
+	font-style: italic;
+	color: rgba(128, 0, 255, 0.7);
+}
+p{
+	font-family: verdana;
+	font-size: 14px;
+	text-align: justify;
+	color: rgba(39, 39, 39, 1);
+}
+.droits{
+	font-family: verdana;
+	font-size: 12px;
+	text-align: justify;
+}
+
+/* Header */
+
+header{
+	display: inline-block;
+	background: url("http://i.imgur.com/4SJxzOZ.png?1");
+	width: 1420px;
+	margin-left:-260px;
+	margin-top: -10px;
+}
+header h1, header h2, header nav{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+#titreprincipal{
+	display: inline-block;
+	text-align: center;
+}
+#titresecondaire{
+	display: inline-block;
+	text-align: center;
+}
+#logo{
+	display:inline-block;
+	position: relative;
+	margin-left: -1150px;
+	margin-top: -350px;
+
+	
+}
+header h1{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 80px;
+	font-weight: bold;
+	color: rgba(106, 0, 106, 1);
+	width: 1000px;
+	margin-left:200px;
+	margin-top: 20px;
+}
+header h2{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(39, 39, 39, 1);
+	width: 1000px;
+	margin-left:200px;
+	margin-top: 20px;
+}
+
+
+/* Navigation */
+
+nav
+{
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+}
+nav ul{
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+}
+nav li{
+	display: inline-block;
+	margin-right: 50px;
+}
+nav a{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 20px;
+	color: rgba(106, 0, 106, 1);
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+nav a:hover{
+	color: rgba(128, 0, 255, 1);
+}
+
+
+
+/* Footer */
+
+footer{
+	display: inline-block;
+	width: 1000px;
+}
+footer div{
+	display: inline-block;
+	position: relative;
+	padding: 50px;
+	margin-bottom: 0px;
+	left: 150px;
+}
+#réseauxsociaux{
+	display: inline-block;
+}
+#mesphotos{
+	display: inline-block;
+}
+footer h2{
+	font-family: 'Bad Script', cursive;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(128, 0, 255, 1);
+}
